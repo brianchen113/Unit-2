@@ -50,3 +50,14 @@ if n == "15":
     print("factors are 1, 3, 5, and 15")
 if n == "16":
     print("factors are 1, 2, 4, 8, 16")
+if n == "17":
+    print("factors are 1 and 17")
+
+def spaces(n,y,t):
+    y = ("CC..C")
+    t = (".CC..")
+n = input("How many parking spaces were filled yesterday and today?")
+if n == "1":
+    print("Correct")
+if n == else:
+    print("Nope")
