@@ -7,11 +7,11 @@ print(values)
 
 tip_amount = input("How was your service? (bad, okay, good, great) ")
 if tip_amount == "bad":
-    print("0% tip")
+    print("0% tips")
 if tip_amount == "okay":
-    print("15% tip")
+    print("15 tip")
 if tip_amount == "good":
-    print("20% tip")
+    print("20%")
 if tip_amount == ("great"):
     print("give me a 25% tip")
 if tip_amount == "horrible":
@@ -42,8 +42,8 @@ if n == "11":
     print("factors are 1 and 11")
 if n == "12":
     print("factors are 1, 2, 3, 4, 6, 12")
-if n == "13":
-    print("factors are 1 and 13")
+if n == "13": 
+    print("factors are 1 and 13")                                  
 if n == "14":
     print("factors are 1, 2, 7, and 14") 
 if n == "15":
@@ -54,10 +54,9 @@ if n == "17":
     print("factors are 1 and 17")
 
 def spaces(n,y,t):
-    y = ("CC..C")
-    t = (".CC..")
-n = input("How many parking spaces were filled yesterday and today?")
-if n == "1":
-    print("Correct")
-if n == else:
-    print("Nope")
+    occupied = 0
+    for i in range(n):
+        if y[i] == "C" and t[i] == "C":
+            occupied = occupied = 1
+    return occupied
+print(spaces(6, "CC..C", ".CC.."))
