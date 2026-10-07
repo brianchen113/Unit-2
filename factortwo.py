@@ -1,7 +1,10 @@
-def factor(n/f):
-math = input("Choose a number")
-math = n/1
-f=int
-if factor == int:
-    print(factor)
+n=int(input("What is your number?"))
+result = n/1
+a = n/2
+b = n/3
+c = n/4
+d = n/5
+e = n/6
+
+
     
