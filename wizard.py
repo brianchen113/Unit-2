@@ -7,4 +7,4 @@ def wizard(N, start, duels):
             num_owners += 1
     print(owner)
 
-wizards(3, "A", ["BA", "CB", "DA"])
+wizard(3, "A", ["BA", "CB", "DA"])
