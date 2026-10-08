@@ -11,3 +11,5 @@ def spaces(n,y,t):
             occupied = occupied = 1
     return occupied
 print(spaces(6, "CC..C", ".CC.."))
+
+                                                                                                                     
