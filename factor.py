@@ -1,5 +1,5 @@
-n=int(input("Choose a number"))
-result = n
-f=int
-if (n/f) == int:
-    print(n/f)
+f = int
+n = (input("Choose a number"))
+result = int(n) / int(f)
+if result == int:
+    print(result)                                                                          
