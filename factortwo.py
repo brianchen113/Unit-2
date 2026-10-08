@@ -1,4 +1,4 @@
-n=int(input("What is your number?"))
+n=int(input("Choose a number"))
 result = n/1
 a = n/2
 b = n/3
