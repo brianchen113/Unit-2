@@ -8,4 +8,4 @@ if tip_amount == "good":
 if tip_amount == ("great"):
     print("give me a 25% tip")
 if tip_amount == "horrible":
-    print("50% tip")
+    print("50% tip")                                
