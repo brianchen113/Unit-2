@@ -1,10 +1,11 @@
 n=int(input("Choose a number"))
-result = n/1
-a = n/2
-b = n/3
-c = n/4
-d = n/5
-e = n/6
+num = n
+factors = []
+for i in range(1, num + 1):
+    if num % 1 == 0:
+        factors.append(i)
+    return factors
+
 
 
     
