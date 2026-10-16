@@ -2,5 +2,6 @@ n = int
 f = int
 factor = input("Choose a number")
 factor = n
-if int(factor) / int(f) == int:
+doctor = f
+if int(factor) / int(doctor) == int:
     print(n / f)
